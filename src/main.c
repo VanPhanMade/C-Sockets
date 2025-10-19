@@ -33,6 +33,10 @@ Disconnect.
 
 //https://learn.microsoft.com/en-us/windows/win32/winsock/getting-started-with-winsock
 int __cdecl main(int argc, char** argv) {
+
+    printf("Hello, World!\n");
+
+    /*
     WSADATA wsaData = {0};
 
     int recvbuflen = DEFAULT_BUFLEN;
@@ -215,6 +219,8 @@ int __cdecl main(int argc, char** argv) {
     closesocket(ClientSocket);
     closesocket(ListenSocket);
     WSACleanup();
+
+    */
 
     return 0;
 }
